@@ -1,7 +1,7 @@
 ember-cli-deploy-log-url
 ==============================================================================
 
-[Short description of the addon.]
+Simple plugin to log the URL after a successful deployment.
 
 
 Compatibility
@@ -23,7 +23,23 @@ ember install ember-cli-deploy-log-url
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Just add to `ENV` in your `config/deploy.js` file
+
+```js
+'log-url': {
+  url: 'http://example.com'
+}
+```
+
+And after a successful deployment you will see the output in green with this URL for convenience.
+
+```
++- didDeploy
+|  |
+|  +- log-url
+|    - Successfully deployed
+|    - http://animation-viewer.s3-website.eu-west-3.amazonaws.com/
+```
 
 
 Contributing

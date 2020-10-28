@@ -1,14 +1,14 @@
 {
   "name": "ember-cli-deploy-log-url",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Simple plugin to log the URL after a successful deployment.",
   "keywords": [
     "ember-addon",
     "ember-cli-deploy-plugin"
   ],
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Chris Masters",
   "directories": {
     "doc": "doc",
     "test": "tests"
