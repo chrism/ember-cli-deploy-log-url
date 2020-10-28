@@ -1,12 +1,16 @@
 {
   "name": "ember-cli-deploy-log-url",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple plugin to log the URL after a successful deployment.",
   "keywords": [
     "ember-addon",
     "ember-cli-deploy-plugin"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrism/ember-cli-deploy-log-url.git"
+  },
+  "homepage": "https://github.com/chrism/ember-cli-deploy-log-url",
   "license": "MIT",
   "author": "Chris Masters",
   "directories": {
