@@ -38,7 +38,7 @@ And after a successful deployment you will see the output in green with this URL
 |  |
 |  +- log-url
 |    - Successfully deployed
-|    - http://animation-viewer.s3-website.eu-west-3.amazonaws.com/
+|    - http://example.com
 ```
 
 
